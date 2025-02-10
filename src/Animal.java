@@ -16,7 +16,35 @@ public class Animal {
         this.owner = owner;
     }
 
-    public String getName() {
-        return name;
+    private void wikeup() {
+        System.out.println("Animal is wikeup !!!");
+    }
+    private void wikeup (int time){
+        System.out.println("Animal is wikeup in " + time);
+    }
+    private void eat(){
+        System.out.println("Animal is eating !!!");
+    }
+    private void play(){
+        System.out.println("Animal is playing !!!");
+    }
+    private void sleep(){
+        System.out.println("Animal is sleeping !!!");
+    }
+    public void lifeCycle(){
+        wikeup();
+        eat();
+        play();
+        sleep();
+    }
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + " {" +
+                "name='" + name + '\'' +
+                ", birthDate=" + birthDate +
+                ", vactination=" + vactination +
+                ", illness='" + illness + '\'' +
+                ", owner='" + owner + '\'' +
+                '}';
     }
 }
