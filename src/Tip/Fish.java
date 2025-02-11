@@ -1,3 +1,5 @@
+package Tip;
+
 import Interfaces.Swiming;
 
 import java.time.LocalDate;

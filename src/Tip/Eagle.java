@@ -1,5 +1,6 @@
+package Tip;
+
 import Interfaces.Flying;
-import Interfaces.Playing;
 
 import java.time.LocalDate;
 import java.util.List;

@@ -1,3 +1,5 @@
+package Tip;
+
 import Interfaces.Playing;
 
 import java.time.LocalDate;
