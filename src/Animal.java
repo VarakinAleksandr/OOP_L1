@@ -1,5 +1,3 @@
-package Tip;
-
 import java.time.LocalDate;
 import java.util.List;
 
@@ -16,7 +14,6 @@ public class Animal {
         this.vactination = vactination;
         this.illness = illness;
         this.owner = owner;
-
     }
 
     private void wikeup() {
