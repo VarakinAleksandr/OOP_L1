@@ -24,6 +24,8 @@ public class Main {
         eagle.fly();
         forel.swim();
         duck.toGo();
+        System.out.println(duck);
+
 
 
 

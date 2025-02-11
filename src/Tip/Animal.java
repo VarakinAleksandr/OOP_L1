@@ -3,12 +3,13 @@ package Tip;
 import java.time.LocalDate;
 import java.util.List;
 
-public class Animal {
-    private String name;
-    private LocalDate birthDate;
-    private List<String> vactination;
-    private String illness;
-    private String owner;
+public abstract class Animal {
+    protected String name;
+    protected LocalDate birthDate;
+    protected List<String> vactination;
+    protected String illness;
+    protected String owner;
+    protected String type;
 
     public Animal(String name, LocalDate birthDate, List<String> vactination, String illness, String owner) {
         this.name = name;
@@ -16,6 +17,7 @@ public class Animal {
         this.vactination = vactination;
         this.illness = illness;
         this.owner = owner;
+        this.type = getClass().getSimpleName();
 
     }
 
