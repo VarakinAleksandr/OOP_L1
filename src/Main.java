@@ -14,10 +14,12 @@ public class Main {
         List<Animal> animals = new ArrayList<>();
         animals.add(eagle);
         animals.add(barsik);
+        animals.add(new Fish("Forel", LocalDate.of(2025,11,22),new ArrayList<>(),"Chumka", "Serg"));
         System.out.println(animals);
         eagle.lifeCycle();
         eagle.fly();
-        barsik.toGo();
+        Animal a=
+
 
     }
 }
