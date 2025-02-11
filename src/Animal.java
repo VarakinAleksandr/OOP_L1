@@ -37,6 +37,15 @@ public class Animal {
         play();
         sleep();
     }
+//    protected void toGo(){
+//        System.out.printf("%s Go\n", getClass().getSimpleName());
+//    }
+//    protected void fly(){
+//        System.out.printf("%s fly\n", getClass().getSimpleName());
+//    }
+//    protected void swim(){
+//        System.out.printf("%s swim\n", getClass().getSimpleName());
+//    }
     @Override
     public String toString() {
         return getClass().getSimpleName() + " {" +

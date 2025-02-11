@@ -9,13 +9,15 @@ public class Main {
         System.out.println(barsik);
         System.out.println(barsik.getLegsCount());
 
-        Animal eagle = new Eagle("Kesha", LocalDate.of(2025,10,12),new ArrayList<>(),"Chumka", "Boss");
+        Eagle eagle = new Eagle("Kesha", LocalDate.of(2025,10,12),new ArrayList<>(),"Chumka", "Boss");
         System.out.println(eagle);
         List<Animal> animals = new ArrayList<>();
         animals.add(eagle);
         animals.add(barsik);
         System.out.println(animals);
         eagle.lifeCycle();
-        System.out.println(barsik);
+        eagle.fly();
+        barsik.toGo();
+
     }
 }
